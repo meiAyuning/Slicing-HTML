@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+}
+.container .left {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.container .left img{
+    width: 60px;
+    height: 55px;
+    margin: 10px;
+}
+.container .right {
+    display: inline-block;
+}
+.container .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container .navbar ul li {
+    float: left;
+  }
+  
+  .container .navbar ul li a {
+    display: inline-block;
+    color: #000;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .container .navbar ul li a:hover {
+    background-color: rgb(238, 140, 12);
+    border-radius: 10px;
+  }
+  
+  .container .navbar button{
+    background-color: rgb(189, 188, 187);
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    margin: 5px;
+  }
+  .container .navbar button:hover{
+    background-color: beige;
+    color: #000;
+  }
+.container img {
+    width: 1342px;
+    height: 850px;
+}
+.container .text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 200px;
+  margin-left: -200px;
+  margin-top: -29px;
+}
+.container .text-wrapper h2 {
+  margin: 0;
+  text-align: left;
+  color: #000;
+  font-family: arial;
+  font-size: 100px;
+}
+.container span {
+  display: inline-block;
+  color: #fff;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgb(238, 140, 12);
+  border-radius: 15px;
+}
+
+.container span:hover {
+  background-color: rgb(209, 125, 29);
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+}
+/* .container .images{
+  position: absolute;
+  text-align: right;
+}
+.container .images img{
+  display:flexbox;
+  width: 175px;
+  height: 175px;
+  text-align: right;
+  align-items:center ;
+} */
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.form_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombol_login{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
