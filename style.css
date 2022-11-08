@@ -42,7 +42,7 @@
   }
   
   .container .navbar button{
-    background-color: rgb(189, 188, 187);
+    background-color: rgb(238, 140, 12);
     padding: 10px;
     color: white;
     border-radius: 15px;
@@ -75,7 +75,7 @@
 .container span {
   display: inline-block;
   color: #fff;
-  text-align: left;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: none;
   background-color: rgb(238, 140, 12);
@@ -87,51 +87,4 @@
   border-radius: 15px;
   color: rgb(255, 255, 255);
 }
-/* .container .images{
-  position: absolute;
-  text-align: right;
-}
-.container .images img{
-  display:flexbox;
-  width: 175px;
-  height: 175px;
-  text-align: right;
-  align-items:center ;
-} */
-
-.kotak_login{
-	width: 350px;
-	background: white;
-	/*meletakkan form ke tengah*/
-	margin: 80px auto;
-	padding: 30px 20px;
-}
- 
-label{
-	font-size: 11pt;
-}
- 
-.form_login{
-	/*membuat lebar form penuh*/
-	box-sizing : border-box;
-	width: 100%;
-	padding: 10px;
-	font-size: 11pt;
-	margin-bottom: 20px;
-}
- 
-.tombol_login{
-	background: #46de4b;
-	color: white;
-	font-size: 11pt;
-	width: 100%;
-	border: none;
-	border-radius: 3px;
-	padding: 10px 20px;
-}
- 
-.link{
-	color: #232323;
-	text-decoration: none;
-	font-size: 10pt;
-}
+  
