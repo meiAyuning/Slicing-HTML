@@ -93,13 +93,14 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 20px;
   }
   
   .cards_item {
     display: flex;
-    padding: 1rem;
+    padding: 0px;
+    margin: 0px;
   }
   
   @media (min-width: 40rem) {
@@ -123,9 +124,12 @@
     overflow: hidden;
   }
   
+  .card_image{
+    width: 350px;
+  }
   .card_content {
-    padding: 1rem;
-    background-color: coral;
+    /* padding: 0.75rem; */
+    background-color: rgb(223, 119, 0);
     /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
   }
   
@@ -136,12 +140,12 @@
     letter-spacing: 1px;
     text-transform: capitalize;
     margin: 0px;
+    text-align: center;
   }
   
-  .card_text {
+  button {
     color: #ffffff;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
     line-height: 1.5;
-    margin-bottom: 1.25rem;    
-    font-weight: 400;
+    margin-top: 1.25rem;    
   }
