@@ -54,3 +54,8 @@
     background-color: rgb(255, 195, 116);
     color: #000;
   }
+  .content{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
