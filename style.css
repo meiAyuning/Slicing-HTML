@@ -91,4 +91,37 @@
   border-radius: 15px;
   color: rgb(255, 255, 255);
 }
-  
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+  margin-top: 10px;
+}
+.footer .left {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.footer .left img{
+  width: 60px;
+  height: 55px;
+  margin: 10px;
+}
+.footer .right {
+  display: inline-block;
+}
+.footer .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.footer .navbar ul li {
+  float: left;
+}
+.footer .navbar ul li img{
+  width: 90px;
+}
